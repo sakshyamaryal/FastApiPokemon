@@ -1,7 +1,7 @@
-from sqlalchemy import Column, Integer, String
-from sqlalchemy.ext.declarative import declarative_base
+# models.py
 
-Base = declarative_base()
+from sqlalchemy import Column, Integer, String
+from app.database import Base  # Adjust import as per your folder structure
 
 class Pokemon(Base):
     __tablename__ = "pokemons"

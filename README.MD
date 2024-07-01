@@ -38,6 +38,8 @@
 - **GET /api/v1/pokemons**: Get list of Pokemons with optional filtering by name and type.
 - **GET /api/v1/pokemons?name=<name>&type=<type>**: Get filtered list of Pokemons.
 
+- **GET http://127.0.0.1:8000/api/v1/pokemons?name=pikachu
+
 ## Additional Information
 
 - The PokeAPI is called only once to fetch the list of Pokemons, which are then stored in the PostgreSQL database. All subsequent requests are served from the database.

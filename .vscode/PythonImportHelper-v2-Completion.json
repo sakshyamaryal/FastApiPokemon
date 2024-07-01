@@ -1,5 +1,77 @@
 [
     {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
         "label": "BaseSettings",
         "importPath": "pydantic_settings",
         "description": "pydantic_settings",
@@ -33,22 +105,6 @@
         "documentation": {}
     },
     {
-        "label": "select",
-        "importPath": "sqlalchemy.future",
-        "description": "sqlalchemy.future",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.future",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
         "label": "sessionmaker",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -65,35 +121,11 @@
         "documentation": {}
     },
     {
-        "label": "AsyncSession",
-        "importPath": "sqlalchemy.ext.asyncio",
-        "description": "sqlalchemy.ext.asyncio",
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
         "isExtraImport": true,
-        "detail": "sqlalchemy.ext.asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "create_async_engine",
-        "importPath": "sqlalchemy.ext.asyncio",
-        "description": "sqlalchemy.ext.asyncio",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.ext.asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "AsyncSession",
-        "importPath": "sqlalchemy.ext.asyncio",
-        "description": "sqlalchemy.ext.asyncio",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.ext.asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "create_async_engine",
-        "importPath": "sqlalchemy.ext.asyncio",
-        "description": "sqlalchemy.ext.asyncio",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.ext.asyncio",
+        "detail": "sqlalchemy.ext.declarative",
         "documentation": {}
     },
     {
@@ -147,54 +179,6 @@
         "documentation": {}
     },
     {
-        "label": "FastAPI",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "Depends",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
         "label": "Column",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -219,11 +203,36 @@
         "documentation": {}
     },
     {
-        "label": "declarative_base",
-        "importPath": "sqlalchemy.ext.declarative",
-        "description": "sqlalchemy.ext.declarative",
+        "label": "as per your folder structure",
+        "importPath": "app.database import Base  # Adjust",
+        "description": "app.database import Base  # Adjust",
         "isExtraImport": true,
-        "detail": "sqlalchemy.ext.declarative",
+        "detail": "app.database import Base  # Adjust",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "app.database import Base  # Adjust the",
+        "description": "app.database import Base  # Adjust the",
+        "isExtraImport": true,
+        "detail": "app.database import Base  # Adjust the",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.api",
+        "description": "app.api",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/pokemons\", response_model=list[PokemonSchema])\nasync def read_pokemons(name: str = None, type: str = None, db: AsyncSession = Depends(get_db)):\n    pokemons = await get_pokemons(db, name, type)\n    return pokemons\n@router.post(\"/pokemons\", response_model=PokemonSchema)\nasync def create_pokemon(pokemon: PokemonCreate, db: AsyncSession = Depends(get_db)):\n    created_pokemon = await create_pokemon(db, pokemon.name, pokemon.image, pokemon.type)\n    return created_pokemon",
+        "detail": "app.api",
         "documentation": {}
     },
     {
@@ -245,11 +254,20 @@
         "documentation": {}
     },
     {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "Base = declarative_base()\nengine = create_async_engine(settings.database_url, echo=True, future=True)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine, class_=AsyncSession)\nasync def get_db():\n    async with SessionLocal() as session:\n        yield session",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
         "label": "engine",
         "kind": 5,
         "importPath": "app.database",
         "description": "app.database",
-        "peekOfCode": "engine = create_async_engine(settings.database_url, echo=True)\nSessionLocal = sessionmaker(\n    autocommit=False,\n    autoflush=False,\n    bind=engine,\n    class_=AsyncSession\n)\nasync def get_db():\n    async with SessionLocal() as session:\n        yield session",
+        "peekOfCode": "engine = create_async_engine(settings.database_url, echo=True, future=True)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine, class_=AsyncSession)\nasync def get_db():\n    async with SessionLocal() as session:\n        yield session",
         "detail": "app.database",
         "documentation": {}
     },
@@ -258,26 +276,8 @@
         "kind": 5,
         "importPath": "app.database",
         "description": "app.database",
-        "peekOfCode": "SessionLocal = sessionmaker(\n    autocommit=False,\n    autoflush=False,\n    bind=engine,\n    class_=AsyncSession\n)\nasync def get_db():\n    async with SessionLocal() as session:\n        yield session",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine, class_=AsyncSession)\nasync def get_db():\n    async with SessionLocal() as session:\n        yield session",
         "detail": "app.database",
-        "documentation": {}
-    },
-    {
-        "label": "PokemonBase",
-        "kind": 6,
-        "importPath": "app.main",
-        "description": "app.main",
-        "peekOfCode": "class PokemonBase(BaseModel):\n    name: str\n    image: str\n    type: str\n# Pydantic schema for creating a new Pokemon\nclass PokemonCreate(PokemonBase):\n    pass\n# Function to fetch data from the PokeAPI\nasync def fetch_data():\n    url = \"https://pokeapi.co/api/v2/pokemon?limit=100\"",
-        "detail": "app.main",
-        "documentation": {}
-    },
-    {
-        "label": "PokemonCreate",
-        "kind": 6,
-        "importPath": "app.main",
-        "description": "app.main",
-        "peekOfCode": "class PokemonCreate(PokemonBase):\n    pass\n# Function to fetch data from the PokeAPI\nasync def fetch_data():\n    url = \"https://pokeapi.co/api/v2/pokemon?limit=100\"\n    async with aiohttp.ClientSession() as session:\n        async with session.get(url) as response:\n            return await response.json()\n# Function to store data in the database\nasync def store_data(db: AsyncSession):",
-        "detail": "app.main",
         "documentation": {}
     },
     {
@@ -285,7 +285,7 @@
         "kind": 5,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "app = FastAPI()\n# Initialize the database engine\nengine = create_async_engine(settings.database_url, echo=True)\n# Create a sessionmaker factory for database sessions\nasync_session = sessionmaker(engine, class_=AsyncSession, expire_on_commit=False)\n# Database dependency\nasync def get_db() -> AsyncSession:\n    async with async_session() as session:\n        yield session\n# Pydantic schema for Pokemon data",
+        "peekOfCode": "app = FastAPI()\n# Initialize the database engine\nengine = create_async_engine(settings.database_url, echo=True)\n# Create a sessionmaker factory for database sessions\nasync_session = sessionmaker(engine, class_=AsyncSession, expire_on_commit=False)\n# Database dependency\nasync def get_db() -> AsyncSession:\n    async with async_session() as session:\n        yield session\n# Event handler to create tables on startup and store initial data",
         "detail": "app.main",
         "documentation": {}
     },
@@ -294,7 +294,7 @@
         "kind": 5,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "engine = create_async_engine(settings.database_url, echo=True)\n# Create a sessionmaker factory for database sessions\nasync_session = sessionmaker(engine, class_=AsyncSession, expire_on_commit=False)\n# Database dependency\nasync def get_db() -> AsyncSession:\n    async with async_session() as session:\n        yield session\n# Pydantic schema for Pokemon data\nclass PokemonBase(BaseModel):\n    name: str",
+        "peekOfCode": "engine = create_async_engine(settings.database_url, echo=True)\n# Create a sessionmaker factory for database sessions\nasync_session = sessionmaker(engine, class_=AsyncSession, expire_on_commit=False)\n# Database dependency\nasync def get_db() -> AsyncSession:\n    async with async_session() as session:\n        yield session\n# Event handler to create tables on startup and store initial data\n@app.on_event(\"startup\")\nasync def on_startup():",
         "detail": "app.main",
         "documentation": {}
     },
@@ -303,7 +303,7 @@
         "kind": 5,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "async_session = sessionmaker(engine, class_=AsyncSession, expire_on_commit=False)\n# Database dependency\nasync def get_db() -> AsyncSession:\n    async with async_session() as session:\n        yield session\n# Pydantic schema for Pokemon data\nclass PokemonBase(BaseModel):\n    name: str\n    image: str\n    type: str",
+        "peekOfCode": "async_session = sessionmaker(engine, class_=AsyncSession, expire_on_commit=False)\n# Database dependency\nasync def get_db() -> AsyncSession:\n    async with async_session() as session:\n        yield session\n# Event handler to create tables on startup and store initial data\n@app.on_event(\"startup\")\nasync def on_startup():\n    async with engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)",
         "detail": "app.main",
         "documentation": {}
     },
@@ -317,12 +317,21 @@
         "documentation": {}
     },
     {
-        "label": "Base",
-        "kind": 5,
-        "importPath": "app.models",
-        "description": "app.models",
-        "peekOfCode": "Base = declarative_base()\nclass Pokemon(Base):\n    __tablename__ = \"pokemons\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\n    image = Column(String)\n    type = Column(String)",
-        "detail": "app.models",
+        "label": "PokemonBase",
+        "kind": 6,
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "peekOfCode": "class PokemonBase(BaseModel):\n    name: str\n    image: str\n    type: str\n# Pydantic schema for creating a new Pokemon\nclass PokemonCreate(PokemonBase):\n    pass\n# Pydantic schema for Pokemon response with ORM mode enabled\nclass PokemonSchema(BaseModel):\n    id: int",
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PokemonCreate",
+        "kind": 6,
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "peekOfCode": "class PokemonCreate(PokemonBase):\n    pass\n# Pydantic schema for Pokemon response with ORM mode enabled\nclass PokemonSchema(BaseModel):\n    id: int\n    name: str\n    image: str\n    type: str\n    class Config:\n        orm_mode = True",
+        "detail": "app.schemas",
         "documentation": {}
     },
     {

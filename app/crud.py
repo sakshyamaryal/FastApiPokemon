@@ -1,18 +1,20 @@
-from sqlalchemy.future import select
-from sqlalchemy.orm import Session
-from . import models, schemas
+# crud.py
 
-async def get_pokemons(db: Session, skip: int = 0, limit: int = 100):
-    result = await db.execute(select(models.Pokemon).offset(skip).limit(limit))
+from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy.future import select
+from .models import Pokemon
+
+async def get_pokemons(db: AsyncSession, name: str = None, type: str = None):
+    query = select(Pokemon)
+    if name:
+        query = query.filter(Pokemon.name.ilike(f"%{name}%"))
+    if type:
+        query = query.filter(Pokemon.type.ilike(f"%{type}%"))
+    result = await db.execute(query)
     return result.scalars().all()
 
-async def create_pokemon(db: Session, pokemon: schemas.PokemonCreate):
-    db_pokemon = models.Pokemon(**pokemon.dict())
-    db.add(db_pokemon)
+async def create_pokemon(db: AsyncSession, name: str, image: str, type: str):
+    pokemon = Pokemon(name=name, image=image, type=type)
+    db.add(pokemon)
     await db.commit()
-    await db.refresh(db_pokemon)
-    return db_pokemon
-
-async def get_pokemon_by_name(db: Session, name: str):
-    result = await db.execute(select(models.Pokemon).where(models.Pokemon.name == name))
-    return result.scalars().first()
+    return pokemon
